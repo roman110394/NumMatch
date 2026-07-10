@@ -4,6 +4,16 @@
 
 **Стек:** React + Vite + TypeScript · Node.js (vanilla HTTP) · PostgreSQL · Telegram Bot API
 
+## Скриншоты
+
+<p>
+  <img src="docs/screenshots/menu.jpg" width="19%" alt="Главный экран">
+  <img src="docs/screenshots/gameplay.jpg" width="19%" alt="Геймплей: одинаковые или разные?">
+  <img src="docs/screenshots/leaderboard.jpg" width="19%" alt="Глобальная таблица лидеров">
+  <img src="docs/screenshots/achievements.jpg" width="19%" alt="Достижения — 48 ачивок">
+  <img src="docs/screenshots/progress.jpg" width="19%" alt="Мой прогресс и статистика">
+</p>
+
 ---
 
 ## Развёртывание с нуля
