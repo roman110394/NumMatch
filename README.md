@@ -2,6 +2,8 @@
 
 Тренажёр внимательности в формате Telegram Mini App. Сравнивай числа на скорость, попади в мировой топ.
 
+**▶️ Играть: [t.me/nummatchbot](https://t.me/nummatchbot/game?startapp=ref_190474765)**
+
 **Стек:** React + Vite + TypeScript · Node.js (vanilla HTTP) · PostgreSQL · Telegram Bot API
 
 ## Скриншоты
