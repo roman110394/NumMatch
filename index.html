@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Telegram Mini App SDK — self-host чтобы не зависеть от telegram.org (заблокирован в РФ без VPN).
+         Внутри TG WebView объект window.Telegram доступен нативно, скрипт нужен только для браузера вне TG.
+         Обновлять руками: curl -o public/tg/telegram-web-app.js https://telegram.org/js/telegram-web-app.js -->
+    <script src="/tg/telegram-web-app.js" defer></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="apple-touch-icon" href="/favicon.svg?v=2" />
+    <title>NumMatch</title>
+    <style>
+      body { background: #0f0f13; margin: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
